@@ -1,0 +1,493 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Poppins', sans-serif;
+}
+
+html{
+    background-image:url(adobo.jpg);
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+nav{
+    position:fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    height:100px;
+    padding:10px 90px;
+    box-sizing: border-box;
+    border:transparent;
+   
+}
+nav ul{
+    list-style:none;
+    float:left;
+    margin:0;
+    padding:0;
+    display:flex;
+}
+nav ul li a{
+    line-height:80px;
+    color:rgb(8, 8, 8);
+    padding:12px 30px;
+    text-decoration:none;
+    font-size:14px;
+    font-weight: bold;
+    border-bottom: 1px solid rgb(97, 4, 4);
+    margin:10px;
+    border-radius: 5px;
+}
+nav ul li a:hover{
+     background-color: rgb(95, 32, 32);;
+     border-radius: 6px;
+     color:white;
+}
+.logo{
+    float:right;
+}
+.Text h1{
+    
+    margin-top:200px;
+    font-size:80px;
+    color:rgb(95, 32, 32);
+    font-weight: 900;
+    font-family: 'Roboto', sans-serif;
+    text-align: end;
+    margin-right: 90px;
+}
+.Text h2{
+    font-size:80px;
+    color:rgb(95, 32, 32);
+    font-weight: 900;
+    font-family: 'Roboto', sans-serif;
+    text-align: end;
+    margin-right: 40px;
+}
+.Text p{
+    margin-right: 40px;
+    text-align: right;
+    font-weight: bold;
+}
+.btn-menu{
+    text-align: end;
+    margin-right: 130px;
+}
+.btn-menu a{
+    margin:100px;
+    text-decoration:none;
+    display:inline-block;
+    color:#fff;
+    width:120px;
+    margin:10px;
+    padding:12px;
+    border:.5px solid #fff;
+    z-index: 1;
+    position:relative;
+    transition: color 0.5s;
+   
+    text-align:center;
+    font-family: 'Poppins', sans-serif;
+    background:rgb(95, 32, 32);
+    
+}
+.btn-menu a span{
+    width:0;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    background:#fff;
+    z-index: -1;
+    transition: 0.5s;
+  
+}
+.btn-menu a:hover span{
+    width:100%;
+}
+.btn-menu a:hover{
+    color: #333;
+}
+.main-con{
+    display: flex;
+}
+.form{
+    margin-top:200px;
+    width:100%;
+    height:100vh;
+    background-color: rgb(238, 237, 236);
+}
+.con{
+    display: flex;
+}
+.form-box{
+    margin-top:70px;
+    width: 700px;
+    height: 500px;
+    background-image: url(Pinakbet.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-left:150px;
+    transition: 0.5s;
+}
+.form-box:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.form-box-1{
+    margin-top:140px;
+    width: 550px;
+    height: 300px;
+    margin-left:50px;
+    font-size:20px;
+    
+}
+.flex-box-1 h1{
+    font-family: 'Roboto', sans-serif;
+    color: rgb(95, 32, 32);
+}
+.flex-box-1 p{
+     margin-top:25px;
+}
+.btn-menu-1{
+    text-align: end;
+    margin-right: 200px;
+    margin-top:50px;
+}
+.btn-menu-1 a{
+    margin:100px;
+    text-decoration:none;
+    display:inline-block;
+    color:#fff;
+    width:120px;
+    margin:10px;
+    padding:12px;
+    border:.5px solid #fff;
+    z-index: 1;
+    position:relative;
+    transition: color 0.5s;
+   
+    text-align:center;
+    font-family: 'Poppins', sans-serif;
+    background:rgb(95, 32, 32);
+    
+}
+.btn-menu-1 a span{
+    width:0;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    background:#fff;
+    z-index: -1;
+    transition: 0.5s;
+  
+}
+.btn-menu-1 a:hover span{
+    width:100%;
+}
+.btn-menu-1 a:hover{
+    color: #333;
+}
+.texts h1{
+    text-align: center;
+    margin-top:100px;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(95, 32, 32);
+}
+.conn{
+    display:flex;
+}
+.form-box-2{
+    margin-top:150px;
+    width: 500px;
+    height: 500px;
+    margin-left:120px;
+}
+.form-box-2 h1{
+    font-family: 'Roboto', sans-serif;
+    color: rgb(95, 32, 32);
+}
+.form-box-2 p{
+    margin:25px;
+}
+.form-box-3{
+    margin-top:70px;
+    width: 750px;
+    height: 500px;
+   
+}
+.form h1{
+    text-align: center;
+    margin-top:80px;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(95, 32, 32);
+    font-size:40px;
+}
+.ins-con{
+    display: flex;
+    margin:20px;
+}
+.form-con{
+    width:350px;
+    background-image: url(sisig.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 250px;
+    transition: 0.5s;
+    border-radius: 25px;
+}
+.form-con-1{
+    width:350px;
+    background-image: url(letchon.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 250px;
+    margin-left: 20px;
+    border-radius: 25px;
+    transition: 0.5s;
+}
+.form-con-2{
+    width:350px;
+    background-image: url(kare-kare.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 250px;
+    border-radius: 25px;
+    transition: 0.5s;
+}
+.form-con-3{
+    width:350px;
+    background-image: url(pancit-guisado.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 250px;
+    margin-left: 20px;
+    border-radius: 25px;
+    transition: 0.5s;
+}
+.form-con:hover{
+    transform:scale(1.1);
+    cursor: pointer;
+}
+.form-con-1:hover{
+    transform:scale(1.1);
+    cursor: pointer;
+}
+.form-con-2:hover{
+    transform:scale(1.1);
+    cursor: pointer;
+}
+.form-con-3:hover{
+    transform:scale(1.1);
+    cursor: pointer;
+}
+.best-con{
+    display: flex;
+    margin-top:70px;
+}
+.best{
+    width: 400px;
+    height: 300px;
+    margin-left:130px;
+    background-image: url(halo-halo.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 25px;
+    transition: 0.5s;
+    
+}
+.best-1{
+    width: 400px;
+    height: 300px;
+    background-image: url(leche.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-left:25px;
+    border-radius: 25px;
+    transition: 0.5s;
+    
+}
+.best-2{
+    width: 400px;
+    height: 300px;
+    background-image: url(buko.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-left:25px;
+    border-radius: 25px;
+    transition: 0.5s;
+   
+}
+.best:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    background-image: url(halo.jpg);
+}
+
+.best-1:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    background-image: url(Leche-Flan.jpg);
+}
+.best-2:hover{
+    transform: scale(1.1);
+    background-image: url(buko1.jpg);
+    cursor: pointer;
+}
+.best-con-1{
+    display: flex;
+    text-align: center;
+}
+.best-4{
+    width: 400px;
+    height: 300px;
+    margin-left:130px;
+    margin-top:20px;
+}
+.best-5{
+    width: 400px;
+    height: 300px;
+    margin-top:20px;
+    margin-left:20px;
+    
+}
+.best-6{
+    width: 400px;
+    height: 300px;
+    margin-left:30px;
+    margin-top:20px;
+    
+}
+.btn-menu-2{
+    text-align: center;
+    
+    margin-top:20px;
+}
+.btn-menu-2 a{
+    margin:100px;
+    text-decoration:none;
+    display:inline-block;
+    color:#fff;
+    width:120px;
+    margin:10px;
+    padding:12px;
+    border:.5px solid #fff;
+    z-index: 1;
+    position:relative;
+    transition: color 0.5s;
+   
+    text-align:center;
+    font-family: 'Poppins', sans-serif;
+    background:rgb(95, 32, 32);
+    
+}
+.btn-menu-2 a span{
+    width:0;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    background:#fff;
+    z-index: -1;
+    transition: 0.5s;
+  
+}
+.btn-menu-2 a:hover span{
+    width:100%;
+}
+.btn-menu-2 a:hover{
+    color: #333;
+}
+.best-4 h2{
+    font-family: 'Roboto', sans-serif;
+    color: rgb(95, 32, 32);
+}
+.best-5 h2{
+    font-family: 'Roboto', sans-serif;
+    color: rgb(95, 32, 32);
+}
+.best-6 h2{
+    font-family: 'Roboto', sans-serif;
+    color: rgb(95, 32, 32);
+}
+.form h5{
+    text-align: center;
+    font-size:20px;
+}
+.best-con-1-1{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.best-4-4{
+    width: 600px;
+    height: 300px;
+    align-items: center;
+    margin-top:20px;
+}
+input{
+    width: 500px;
+    height: 40px;
+    border-color:rgb(95, 32, 32); 
+    margin-top:100px;
+}
+input::placeholder{
+ color:rgb(95, 32, 32); 
+ padding:10px;
+}
+.sub{
+    width: 100px;
+    height: 40px;
+    margin-top:10px;
+    background-color:rgb(95, 32, 32); 
+    color:white;
+}
+.pii p{
+    text-align: center;
+    margin-top:50px;
+}
+.pii h1{
+    text-align: center;
+    margin-top:100px;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(95, 32, 32);
+    font-size:60px;
+}
+.conna{
+    display: flex;
+    margin-top:-100px;
+}
+.connn1 {
+    width: 100%;
+    height:250px;
+    background-color:rgb(95, 32, 32); 
+}
+.iconss{
+    display: flex;
+    justify-content: center;
+}
+.icon{
+    margin-top:10px;
+    width: 85px;
+    margin:10px;
+    border:1px solid #fff;
+    height: 30px;
+    text-align: center;
+    font-size:20px;
+    border-radius: 25px;
+    background-color: rgb(238, 237, 236);
+}
+.textt h1{
+    text-align: center;
+    color:#fff;
+}
+.textt p{
+    text-align: center;
+    color:#fff;
+}
+.connn1 p{
+    text-align: center;
+    color:#fff;
+}
